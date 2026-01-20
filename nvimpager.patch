@@ -1,0 +1,23 @@
+--- a/lua/nvimpager/pager.lua
++++ b/lua/nvimpager/pager.lua
+@@ -35,14 +35,14 @@ local function set_maps()
+   end
+   map('q', '<CMD>quitall!<CR>')
+   map('q', '<CMD>quitall!<CR>', 'v')
+-  map('<Space>', '<PageDown>')
+-  map('<S-Space>', '<PageUp>')
+-  map('g', 'gg')
++  -- map('<Space>', '<PageDown>')
++  -- map('<S-Space>', '<PageUp>')
++  -- map('g', 'gg')
+   map('<Up>', '<C-Y>')
+   map('<Down>', '<C-E>')
+-  map('k', '<C-Y>')
+-  map('j', '<C-E>')
+-  map('F', toggle_follow)
++  -- map('k', '<C-Y>')
++  -- map('j', '<C-E>')
++  -- map('F', toggle_follow)
+ end
+ 
+ --- Setup function for the VimEnter autocmd.

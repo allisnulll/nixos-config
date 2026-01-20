@@ -1,0 +1,23 @@
+window {
+    font-family: Hack Nerd Font;
+    font-size: 14px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+#window-box {
+    padding: 24px 36px;
+    background: rgba(0, 0, 0, .6);
+}
+
+window#DP-1 {
+    background-image: url("/tmp/DP-1.png");
+}
+window#DP-3 {
+    background-image: url("/tmp/DP-1.png");
+}
+window#HDMI-A-1 {
+    background-image: url("/tmp/HDMI-A-1.png");
+}
+
